@@ -1,0 +1,140 @@
+<!--
+
+-->
+
+
+.jumbotron{
+	padding:20%;
+	background:#33ACFF;
+	color:white;
+	}
+mark {
+  background-color: white;
+  color: black;
+}	
+	
+body{
+	font-family: 'Century Gothic', sans-serif;
+	}
+
+p{
+	padding:10px;
+	text-indent: 2.0em; 
+	}
+	
+#compile{
+	margin-left: 50px;
+}	
+	
+	
+.main-footer {
+    background: #white;
+    color: #black;
+    padding: 40px 1em;
+    text-align: center;
+    font-size: .8em
+}
+.main-footer ul {
+    padding: 0
+}
+.footerAbout p {
+    font-size: 1.414em;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto
+}
+.nav-footer a {
+    display: inline-block
+	
+}
+.nav-footer li {
+    margin-top: 5px
+
+}
+.social-nav-footer li {
+    display: inline-block;
+    margin-right: .3em
+}
+.social-nav-footer a {
+    padding: .5em
+}
+.social-nav-footer i {
+    font-size: 2.1em
+}
+.copywrite {
+    font-size: .78em
+}
+@media screen and (max-width:1400px) {
+    .container {
+        -webkit-transition: width 1s;
+        transition: width 1s
+    }
+}
+@media screen and (min-width:768px) {
+    .about-block h2 {
+        font-size: 2em
+    }
+    .about-block p:nth-child(1) {
+        font-size: 2em;
+        margin-bottom: 1em
+    }
+    .about-block p:nth-child(4) {
+        font-size: 1.15em;
+        max-width: 500px;
+        margin: 0 auto 2em
+    }
+    .featured-work {
+        height: 31.25em
+    }
+    .main-footer {
+        padding-top: 40px;
+        padding-bottom: 20px
+    }
+    .footerAbout p {
+        font-size: 1.2em
+    }
+}
+
+
+/* Reflection Tabs */
+.tab-panels ul {
+        margin: 0;
+        padding: 0;
+    }
+    .tab-panels ul li {
+            list-style-type: none;
+            display: inline-block;
+            background: #33ACFF;
+            margin: 0;
+            padding: .5em 1.5em;
+            border-radius: .5em .5em 0 0;
+            color: #fff;
+            font-weight: 50;
+            cursor: pointer;
+
+                    }
+
+    .tab-panels ul li:hover {
+            color: #FFFFFF;
+            background: #404040;
+                            }
+
+    .tab-panels ul li.active {
+            color: #FFFFFF;
+            background: #404040;
+            
+                }
+
+    .tab-panels .panel  {
+            display:none;
+            background: white;
+            color: black;
+            padding: 1.5em;
+            border-radius: 0 0 .8em .8em;
+            }
+
+    .tab-panels .panel.active {
+    display:block;
+    }
+    /* Reflection Tabs END */
