@@ -14,7 +14,7 @@ mark {
 }	
 	
 body{
-	font-family: 'Century Gothic', sans-serif;
+	font-family: 'Manjari', sans-serif;
 	}
 
 p{
@@ -94,6 +94,18 @@ p{
     .footerAbout p {
         font-size: 1.2em
     }
+	
+	.img-act {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 70%;
+	}
+	
+	#reflect {
+		margin-left: 30%;
+		margin-right: 30%;
+	}
 }
 
 
