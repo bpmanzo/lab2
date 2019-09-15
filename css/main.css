@@ -15,6 +15,7 @@ mark {
 	
 body{
 	font-family: 'Manjari', sans-serif;
+	margin:10px;
 	}
 
 p{
@@ -101,6 +102,12 @@ p{
 		margin-right: auto;
 		width: 70%;
 	}
+	.img-act-grid {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
 	
 	#reflect {
 		margin-left: 30%;
@@ -150,3 +157,5 @@ p{
     display:block;
     }
     /* Reflection Tabs END */
+
+	
