@@ -1,6 +1,28 @@
-<!--
 
--->
+
+.persona-card-grid {
+  padding: 30px 0 !important;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Cards */
+  .persona-card-wide.mdl-card {
+    width: 360px;
+  }
+
+    .persona-card-wide > .mdl-card__title {
+      color: #fff;
+      height: 200px;
+      background: url('') center / cover;
+      background-color: #33ACFF;
+    }
+
+    .persona-card-wide > .mdl-card__menu {
+      color: #fff;
+    }
+
 
 
 .jumbotron{
@@ -20,7 +42,7 @@ body{
 
 p{
 	padding:10px;
-	text-indent: 2.0em; 
+	
 	}
 	
 #compile{
